@@ -1,5 +1,20 @@
 [
   {
+    "slug": "IA-01",
+    "name": "Kento Sugiyama",
+    "appName": "CoFIS",
+    "description": "A community-oriented flood information system for browser-based watershed exploration, inundation mapping, and impact analysis built on national hydrologic datasets.",
+    "thumbnail": "sites/IA-01/thumbnail.png",
+    "location": {
+      "lat": 41.6611277,
+      "lng": -91.5301683,
+      "label": "Iowa City, IA"
+    },
+    "district": "IA-01",
+    "state": "IA",
+    "tags": ["environment", "water", "mapping", "science"]
+  },
+  {
     "slug": "IA-03",
     "name": "Joey Zambreno",
     "appName": "IAHeroes",
