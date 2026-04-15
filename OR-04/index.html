@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Generations Connect | Rylan Pierce</title>
+
+  <link rel="stylesheet" href="../../assets/css/shared.css">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    html {
+      font-size: 20px; 
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #1a3a3a;
+      background: #ffffff;
+      min-height: 100vh;
+      font-size: 1.15rem;
+    }
+
+    .section-wrapper {
+      padding: 100px 5%;
+      width: 100%;
+    }
+
+    .bg-light-green { background-color: #dbffdb; }
+    .bg-white { background-color: #ffffff; }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header h1 { 
+        font-size: 3.5rem; 
+        color: #0a2f0a; 
+        margin-bottom: 2rem;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.1;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 { 
+        font-size: 2.5rem; 
+        margin-bottom: 2rem; 
+        color: #0a2f0a;
+        text-align: center;
+    }
+
+    p { 
+        line-height: 1.8; 
+        margin-bottom: 2rem; 
+        text-align: center; 
+        max-width: 850px; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .video-container {
+      max-width: 950px;
+      margin: 3rem auto 0;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+      aspect-ratio: 16 / 9;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .btn-primary {
+        background-color: #48bb78;
+        color: white;
+        padding: 18px 42px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        display: inline-block;
+        transition: all 0.3s ease;
+        border: none;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .btn-primary:hover {
+        background-color: #38a169;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .back-to-showcase {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        z-index: 100;
+        background: rgba(255,255,255,0.95);
+        padding: 10px 22px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #1e4d3a;
+        font-weight: 600;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        font-size: 0.9rem;
+    }
+
+    .button-center {
+        text-align: center;
+        margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="../../" class="back-to-showcase">&larr; Back to Showcase</a>
+
+  <div class="section-wrapper bg-light-green">
+    <div class="container">
+      <header>
+        <h1>Connecting Generations, Building Community.</h1>
+        <p style="font-weight: 600; color: #48bb78; text-transform: uppercase; letter-spacing: 1px;">By Rylan Pierce | OR-04</p>
+      </header>
+    </div>
+  </div>
+  
+  <div class="section-wrapper bg-white">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a high school junior who has been engineering and programming projects since middle school. I've worked on everything from creating my own video games to building arcade machines and software for my community, always hoping to better the lives of the people around me.</p>
+    </div>
+  </div>
+
+  <div class="section-wrapper bg-light-green">
+    <div class="container">
+      <h2>The Goal</h2>
+      <p>Living in a relatively small retirement community, one of the biggest problems I see is a simple lack of connection. Generations Connect is meant to bridge the gap between generations, allowing high schoolers and senior citizens to connect through tasks in order to strengthen our communities.</p>
+    </div>
+  </div>
+
+  <div class="section-wrapper bg-white">
+    <div class="container">
+      <h2>Demo</h2>
+      <p>Basic demo showcasing the app, Generations Connect.</p>
+      <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/-UZgnW_VVms" 
+          title="App Demo Video" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="prototype" class="section-wrapper bg-light-green">
+    <div class="container">
+      <h2>See the App</h2>
+      <div class="button-center">
+        <a href="https://ry-backend--rylan-app-project.us-central1.hosted.app" target="_blank" class="btn-primary">Launch Live Prototype</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="../../assets/js/nav.js" data-root="../../"></script>
+</body>
+</html>
