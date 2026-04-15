@@ -658,5 +658,20 @@
   "district": "CA-07",
   "state": "CA",
   "tags": ["environment", "ai"]
+},
+{
+  "slug": "OR-04",
+  "name": "Rylan Pierce",
+  "appName": "Generations Connect",
+  "description": "Connects highschoolers and senior citizens through tasks.",
+  "thumbnail": "sites/OR-04/thumbnail.png",
+  "location": {
+    "lat": 43.974659,
+    "lng": -124.103142,
+    "label": "Florence, OR"
+  },
+  "district": "OR-04",
+  "state": "OR",
+  "tags": ["community", "service", "connection"]
 }
 ]
